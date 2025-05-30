@@ -29,7 +29,7 @@ const createUser = async (req, res) => {
         return res.send(savedUser);
     } catch (error) {
         console.log(error.message);
-        return res.send("something went wrong")
+        return res.send("unable to create user")
     };
 }
 
